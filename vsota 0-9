@@ -1,0 +1,14 @@
+#Kumulativna vsota števil 0-9, avtor. Pia Nadvežnik
+#Vhodni podatki
+vneseno_število = int(input("Vnesite število od 0 do 9:"))
+kumulativna_vsota = 0
+števec_števil = 0
+while vneseno_število > 0:
+  kumulativna_vsota = kumulativna_vsota  vneseno_število
+  vneseno_število = int(input("Vnesi eno število med 0 in 9:"))
+  števec_števil = števec_števil + 1
+  povprečna_vrednost = kumulativna_vsota / števec_števil
+#Izpis
+  print("število sprejetih števil je" + str(števec_števil)+ ",njihova povprečna vrednostje" +str(povprečna_vrednost)+ "!")
+  
+                        
